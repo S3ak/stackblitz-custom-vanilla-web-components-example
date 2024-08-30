@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+    <script type="module" src="/my-component/my-component.js" defer></script>
+    <!-- Using a component Library: https://www.mdui.org/en/docs/2/ -->
+    <link rel="stylesheet" href="https://unpkg.com/mdui@2/mdui.css" />
+    <script src="https://unpkg.com/mdui@2/mdui.global.js"></script>
+  </head>
+  <body>
+    <main>
+      <h1>Welcome to the new Web</h1>
+      <!-- Custom element used below -->
+      <my-component></my-component>
+
+      <mdui-button>Hello, world!</mdui-button>
+
+      <footer>
+        <small
+          >Learn more
+          <a href="https://www.webcomponents.org/introduction">here</a>
+        </small>
+      </footer>
+    </main>
+  </body>
+</html>
