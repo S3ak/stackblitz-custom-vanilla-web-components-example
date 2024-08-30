@@ -8,11 +8,14 @@ class MyComponent extends HTMLElement {
   // NOTE: Runs at the start of the component
   connectedCallback() {
     this.innerHTML = `
-    <section>
+    <link rel="stylesheet" href="my-component.css">
+    
+    <section class="my-com-section">
       <p>This is a web component!</p>
       <button id="js-btn">Click Me</button>
     </section>
     `; // Setting the HTML template
+    
     this.querySelector('#js-btn').addEventListener('click', this.action);
   }
 

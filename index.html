@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Home</title>
+    <title>Custom Web components Tuts</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="script.js"></script>
+    <link rel="stylesheet" href="https://github.com/S3ak/stackblitz-custom-vanilla-web-components-example/blob/e9528502b62220fb7e86854af1bb9d2858c441ea/my-component/my-component.css">
     <script type="module" src="/my-component/my-component.js" defer></script>
     <!-- Using a component Library: https://www.mdui.org/en/docs/2/ -->
     <link rel="stylesheet" href="https://unpkg.com/mdui@2/mdui.css" />
@@ -16,9 +17,12 @@
       <h1>Welcome to the new Web</h1>
       <!-- Custom element used below -->
       <my-component></my-component>
+      <mdui-slider></mdui-slider>
 
-      <mdui-button>Hello, world!</mdui-button>
 
+      <mdui-button variant="outlined">Hello, world!</mdui-button>
+
+      <!-- Activity: Turn this into a Web Component -->
       <footer>
         <small
           >Learn more
